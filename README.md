@@ -56,6 +56,5 @@
 　　　素材は全て同じフォルダ内に配置してください
 ---
 
-## スクリーンショット / GIF
-例：![作品<img width="396" height="399" alt="スクリーンショット 2025-10-07 160925" src="https://github.com/user-attachments/assets/31218ebf-c968-4296-8011-9828b08435a9" />
-のスクショ](images/スクリーンショット2025-09-25140424.png)
+## スクリーンショット / GIFhttps://github.com/rei7wa06-del/processing-portfolio/blob/main/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-10-07%20160925.png
+
