@@ -11,7 +11,7 @@ void draw(){
   moon();  //三日月を描く
   
   firework();
-  for(int i = firework.size() -1; i >= 0; i--){ 
+  for(int i = firework.size() -1; i >= 0; i--){ //iがfirework.size()-1から始まりiが０以上の間1ずつ減らす
     Spark s = firework.get(i);
     s.update();  
     s.show();    
@@ -20,9 +20,9 @@ void draw(){
 }
 
 void moon(){
-  fill(255,240,50);  //月の本体
+  fill(255,240,50);  //月の本体(黄色い丸)
   ellipse(mx,my,50,50);
-  fill(0);
+  fill(0);           //三日月を作るための黒い丸
   noStroke();
   ellipse(mx+15,my,50,50);
 }
@@ -63,5 +63,6 @@ class Spark{
     ellipse(x,y,5,5);
   }
 }
+
 
 
