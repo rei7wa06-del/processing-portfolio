@@ -8,7 +8,7 @@ void setup(){
 
 void draw(){
   fill(255);
-  moon();  
+  moon();  //三日月を描く
   
   firework();
   for(int i = firework.size() -1; i >= 0; i--){ 
@@ -20,11 +20,11 @@ void draw(){
 }
 
 void moon(){
-  fill(255,240,50);
+  fill(255,240,50);  //月の本体
   ellipse(mx,my,50,50);
   fill(0);
   noStroke();
-  ellipse(mx+15,my,50,50);  //三日月
+  ellipse(mx+15,my,50,50);
 }
 
 void firework(){
@@ -63,4 +63,5 @@ class Spark{
     ellipse(x,y,5,5);
   }
 }
+
 
