@@ -8,13 +8,13 @@ void setup(){
 
 void draw(){
   fill(255);
-  moon();  //moon関数呼び出し
+  moon();  
   
   firework();
   for(int i = firework.size() -1; i >= 0; i--){ 
     Spark s = firework.get(i);
-    s.update();  //Spark型のupdate関数呼び出し
-    s.show();    //Spark型のshow関数呼び出し
+    s.update();  
+    s.show();    
     if(s.life < 0) firework.remove(i);
   }
 }
@@ -63,3 +63,4 @@ class Spark{
     ellipse(x,y,5,5);
   }
 }
+
